@@ -126,6 +126,7 @@
     </Compile>
     <Compile Include="Models\Anagrafe.cs" />
     <Compile Include="Models\SharedClass.cs" />
+    <Compile Include="Models\Violazioni.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

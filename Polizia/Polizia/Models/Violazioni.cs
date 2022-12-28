@@ -7,5 +7,13 @@ namespace Polizia.Models
 {
     public class Violazioni
     {
+        public int IDVerbale { get; set; }
+        public DateTime DataViolazione { get; set; }
+        public string IndirizzoViolazione { get; set; }
+        public string NominativoAgente { get; set; }
+        public DateTime DataTrascrizioneVerbale { get; set; }
+        public double Importo { get; set; }
+        public int DecurtamentoPunti { get; set; }
+        public int IdTipoViolazione { get; set; }
     }
 }
